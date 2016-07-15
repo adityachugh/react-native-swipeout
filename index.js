@@ -3,16 +3,16 @@ import NativeButton from './NativeButton';
 import styles from './styles';
 
 import React, {
-  Component,
   PropTypes,
 } from 'react';
 
 import {
+  Component,
   PanResponder,
   TouchableHighlight,
   StyleSheet,
   Text,
-  View,
+  View
 } from 'react-native';
 
 const SwipeoutBtn = React.createClass({
@@ -24,7 +24,7 @@ const SwipeoutBtn = React.createClass({
     onPress: PropTypes.func,
     text: PropTypes.string,
     type: PropTypes.string,
-    underlayColor: PropTypes.string,
+    underlayColor: PropTypes.string
   },
 
   getDefaultProps: function() {

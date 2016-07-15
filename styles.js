@@ -5,21 +5,24 @@ import {
 const styles = StyleSheet.create({
   swipeout: {
     backgroundColor: '#dbddde',
-    overflow: 'hidden',
+    overflow: 'hidden'
   },
   swipeoutBtnTouchable: {
-    flex: 1,
+    flex: 1
   },
   swipeoutBtn: {
     alignItems: 'center',
     backgroundColor: '#b6bec0',
     flex: 1,
     justifyContent: 'center',
-    overflow: 'hidden',
+    overflow: 'hidden'
   },
   swipeoutBtnText: {
-    color: '#fff',
+    color: '#FFFFFF',
     textAlign: 'center',
+    fontFamily: 'Avenir Next',
+    fontWeight: '700',
+    fontSize: 14
   },
   swipeoutBtns: {
     bottom: 0,
@@ -27,12 +30,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     position: 'absolute',
     right: 0,
-    top: 0,
+    top: 0
   },
   swipeoutContent: {
   },
   colorDelete: {
-    backgroundColor: '#fb3d38',
+    backgroundColor: '#fb3d38'
   },
   colorPrimary: {
     backgroundColor: '#006fff'
